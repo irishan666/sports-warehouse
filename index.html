@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/desktop.css">
+  <link rel="stylesheet"  href="./styles/mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Sport Warehouse</title>
+</head>
+
+<body>
+  <div class="page">
+    <!-- Header Section -->
+    <header class="top-bar">
+      <div class="container">
+        <nav class="menu">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" style="display: none;">
+          <label for="menu-toggle" class="menu__toggle"><span>Toggle Menu</span></label>
+          
+          <!-- <label for="menu-toggle" class="menu__toggle"><span>&#9776;</span> Menu</label> -->
+          <ul class="menu__items">
+            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">About SW</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">View Products</a></li>
+            <li class="menu__item button-first">
+                <img src="images/login-icon.png" alt="Login">
+              <a class="button__link menu__link" href="#">Log In</a>
+            </li>
+          </ul>
+          <ul class="menu__items-right">
+            <li class="menu__item button-secondary">
+                <img src="images/cart-icon.png" alt="View Cart">
+              <a class="button__link menu__link" href="#">View Cart</a>
+            </li>
+            <li class="menu__item button-third">
+              <a class="button__link menu__link" href="#">0 items</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="site-wrapper">
+      <header class="search-container">
+        <img class="logo" src="images/sports-warehouse-logo-600.png" alt="Sport Warehouse Logo">
+        <div class="search">
+          <div class="search-box">
+            <input class="search-input" type="text" placeholder="Search products">
+            <button class="search-button" type="submit"><img src="images/search-icon.png" alt="Search"></button>
+          </div>
+        </div>
+      </header>
+
+      <nav class="category-menu">
+        <ul>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Helmets</a></li>
+          <li><a href="#">Pants</a></li>
+          <li><a href="#">Tops</a></li>
+          <li><a href="#">Balls</a></li>
+          <li><a href="#">Equipment</a></li>
+          <li><a href="#">Training Gear</a></li>
+        </ul>
+      </nav>
+
+      <div class="banner">
+        <img src="images/banner-1.png" alt="Sport Warehouse Banner" class="banner-img">
+        <div class="dots-container">
+          <span class="dot" onclick=""></span>
+          <span class="dot" onclick=""></span>
+          <span class="dot" onclick=""></span>
+        </div>
+        <div class="banner-content">
+            <p class="banner-text1">View Our Brand<br>new range of</p>
+            <p class="banner-text2">Sports<br>balls</p>
+            <button class="shop-button">Shop now</button>
+        </div>
+      </div>
+
+      <section class="featured-products">
+        <div class="white-text">
+          <h3>Featured Products</h3>
+        </div>
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product">
+            <img src="images/soccer-ball.png" alt="Product 1">
+            <span class="price-main">$34.95</span>
+            <span class="original">WAS</span>
+            <span class="price-secondary">$46.00</span>
+            <p class="product-name">adidas Euro16 Top Soccer Ball</p>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product">
+            <img src="images/skate-helmet.png" alt="Product 2">
+            <p class="product-price">$70.00</p>
+            <p class="product-name">Pro-tec Classic Skate Helmet</p>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product">
+            <img src="images/water-bottle.png" alt="Product 3">
+            <span class="price-main">$15.00</span>
+            <span class="original">WAS</span>
+            <span class="price-secondary">$17.50</span>
+            <p class="product-name">Nike Sport 600ml Water Bottle</p>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product">
+            <img src="images/boxing-gloves.png" alt="Product 4">
+            <p class="product-price">$79.95</p>
+            <p class="product-name">Sting ArmaPlus Boxing Gloves</p>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product">
+            <img src="images/men's-FG-boots.png" alt="Product 5">
+            <p class="product-price">$160.00</p>
+            <p class="product-name">Asics Gel Lethal Tigreor 8 IT Men's FG Boots</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands-partnerships">
+        <div class="white-text">
+          <h3>Our Brands and partnerships</h3>
+        </div>
+        <div class="partnership">
+          <p class="brands">These are some of our Top Brands and Partnerships.
+            <br><a class="custom-link" href="#">The Best of the Best is Here</a>.</p>
+          <div class="logo-container">
+            <div class="logo logo-wilson">
+              <img src="images/logo_nike.png" alt="Nike">
+            </div>
+            <div class="logo logo-newbalance">
+              <img src="images/logo_adidas.png" alt="Adidas">
+            </div>
+            <div class="logo logo-asics">
+              <img src="images/logo_skins.png" alt="Skins">
+            </div>
+            <div class="logo logo-asics">
+              <img src="images/logo_asics.png" alt="ASICS">
+            </div>
+            <div class="logo logo-newbalance">
+              <img src="images/logo_newbalance.png" alt="New Balance">
+            </div>
+            <div class="logo logo-wilson">
+              <img src="images/logo_wilson.png" alt="Wilson">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-column footer-column1">
+          <h4>Site Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About SW</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">View Products</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column footer-column2">
+          <h4>Product Categories</h4>
+          <ul>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Helmets</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Balls</a></li>
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">Training Gear</a></li>
+          </ul>
+        </div>
+        <div class="footer-column footer-column3">
+          <h4>Contact Sports Warehouse</h4>
+          <div class="social-media">
+            <div>
+              <a href="#">
+                <img src="images/facebook-icon1.png" alt="facebook">
+                <p>Facebook</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="images/twitter-icon1.png" alt="twitter">
+                <p>Twitter</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="images/other-icon1.png" alt="telegram">
+                <p>Other</p>
+              </a>
+              <div class="other">
+                <p>Online form</p>
+                <p>Email</p>
+                <p>Phone</p>
+                <p>Address</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <div class="copyright">
+      <p>© Copyright 2023 Sports Warehouse. All rights reserved. Website made by Awesomesauce Design.</p>
+    </div>
+  </div>
+
+  <script>
+ document.addEventListener("DOMContentLoaded", function () {
+            // 导航菜单交互
+            const menuToggle = document.querySelector(".menu__toggle");
+            const menuItems = document.querySelector(".menu__items");
+            menuToggle.addEventListener("click", function () {
+                menuItems.classList.toggle("show");
+            });
+
+            // 轮播图
+            let currentSlide = 0;
+            const slides = document.querySelectorAll(".banner-img");
+            const dots = document.querySelectorAll(".dot");
+
+            function showSlide(index) {
+                slides.forEach((slide) => slide.classList.remove("active"));
+                dots.forEach((dot) => dot.classList.remove("active"));
+                slides[index].classList.add("active");
+                dots[index].classList.add("active");
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener("click", () => {
+                    showSlide(index);
+                    currentSlide = index;
+                });
+            });
+
+            document.querySelector(".banner-content .shop-button").addEventListener("click", nextSlide);
+
+            // 表格排序
+            const table = document.querySelector(".sortable-table");
+            const tableHeaders = table.querySelectorAll("th");
+            const tableRows = Array.from(table.querySelectorAll("tbody tr"));
+
+            tableHeaders.forEach((header, index) => {
+                header.addEventListener("click", () => {
+                    tableRows.sort((a, b) => {
+                        const cellA = a.querySelectorAll("td")[index].textContent;
+                        const cellB = b.querySelectorAll("td")[index].textContent;
+                        return cellA.localeCompare(cellB);
+                    });
+                    tableRows.forEach((row) => table.querySelector("tbody").appendChild(row));
+                });
+            });
+        });
+  </script>
+</body>
+
+</html>

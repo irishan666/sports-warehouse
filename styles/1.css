@@ -1,0 +1,56 @@
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-column footer-column1">
+      <h4>Site Navigation</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About SW</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">View Products</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-column footer-column2">
+      <h4>Product Categories</h4>
+      <ul>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Helmets</a></li>
+        <li><a href="#">Pants</a></li>
+        <li><a href="#">Tops</a></li>
+        <li><a href="#">Balls</a></li>
+        <li><a href="#">Equipment</a></li>
+        <li><a href="#">Training Gear</a></li>
+      </ul>
+    </div>
+    <div class="footer-column footer-column3">
+      <h4>Contact Sports Warehouse</h4>
+      <div class="social-media">
+        <div>
+          <a href="#">
+            <img src="images/facebook-icon1.png" alt="facebook">
+            <p>Facebook</p>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="images/twitter-icon1.png" alt="twitter">
+            <p>Twitter</p>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="images/other-icon1.png" alt="telegram">
+            <p>Other</p>
+          </a>
+          <div class="other">
+            <p>Online form</p>
+            <p>Email</p>
+            <p>Phone</p>
+            <p>Address</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
