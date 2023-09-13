@@ -444,7 +444,10 @@
     
   @media (max-width: 496px) {
   
-   
+   .site-footer
+   {
+    height: unset;
+   }
     
     .site-footer .container { 
       max-width: 100%;
